@@ -1,0 +1,19 @@
+priority -50
+
+snippet vms
+`!v GetVMSFilename()`__${1}
+endsnippet
+
+snippet vmsf
+function `!v GetVMSFilename()`__${1}(${2:\$controller}) {
+	${0}
+}
+endsnippet
+
+snippet ivms
+if (vms_feature('${1}')) {
+	${0}
+}
+endsnippet
+
+# :vim:ft=snippets:

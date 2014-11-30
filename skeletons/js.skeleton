@@ -1,0 +1,8 @@
+(function(window) {
+    
+    function MyFunction() {
+    }
+
+    window.MyFunction = MyFunction;
+
+})(window);

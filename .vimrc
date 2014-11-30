@@ -3,7 +3,7 @@
 " ----------------------------------------------------------------
 
 let b:author='Djordje Ungar'
-let b:email='djordje.ungar@gmail.com'
+let b:email='mail@djordjeungar.com'
 let mapleader = ","
 let maplocalleader=','          " all my macros start with 
 
